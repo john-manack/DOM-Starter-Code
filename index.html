@@ -5,12 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DOM Starter Kit</title>
+    <title>Breakout Room Project - Madlibs</title>
     <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
-
+    <header class="wrapper">
+        <h1>Madlib Breakout Room Project</h1>
+    </header>
+    <main class="placeholder wrapper">
+        <form id="#generateMadlib" action="#" method="POST">
+            <label>
+                My favorite food: 
+                <input type="text" name="favFood" id="favFood" placeholder="What is your favorite food?" />
+            </label>
+            <label>
+                My favorite drink: 
+                <input type="text" name="favDrink" id="favDrink" placeholder="What is your favorite drink?" />
+            </label>
+            <button type="submit">Generate Madlib</button>
+        </form>
+        <section>
+            <p>My favorite food is <span id="foodResponse" class="madlib_placeholder"></span> and my favorite drink is <span id="drinkResponse" class="madlib_placeholder"></span>.</p>
+        </section>
+    </main>
 </body>
 <script src="js/index.js"></script>
 </html>
