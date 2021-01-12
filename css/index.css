@@ -24,10 +24,23 @@ body {
     width: 100%
 }
 
+form label {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+}
+
 .madlib_placeholder {
     border-bottom: solid 1px #000;
     display: inline-block;
     min-height: 19px;
     min-width: 130px;
     padding: 1px 4px 2px;
+    background-color: rgb(202, 200, 200);
+}
+
+section {
+    display: block;
+    margin: 16px auto;
+    width: 100%;
 }
